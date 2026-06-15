@@ -1,6 +1,5 @@
-#![feature(concat_idents)]
 #![feature(proc_macro_hygiene)]
-#![feature(asm)]
+#![allow(unsafe_op_in_unsafe_fn)]
 
 mod pikmin;
 
